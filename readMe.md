@@ -1,1 +1,1 @@
-Testing 3D reconstruction using a disparity map and stereovision methods. The dataset the image is taken from can be found from https://vision.middlebury.edu/stereo/data/
+Experimenting with 3D reconstruction in openCV using a disparity map and stereovision methods. The dataset the image is taken from can be found from https://vision.middlebury.edu/stereo/data/

@@ -54,7 +54,7 @@ class StereoVisionProcessor:
             distCoeffs2=0,
             imageSize=self.imgLgray.shape[:2],
             R=np.identity(3),
-            T=np.array([0.5, 0., 0.]),
+            T=np.array([self.calibration['baseline'], 0., 0.]),
             R1=None,
             R2=None,
             P1=8 * 3 * 3 ** 2,
